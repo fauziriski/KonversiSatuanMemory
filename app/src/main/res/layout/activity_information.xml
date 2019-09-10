@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Information"
+    >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:paddingTop="30dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/kumbang" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="150dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textAlignment="center"
+        android:text="Kelompok 2
+\n Fauzi Riski 1717051029
+\n Naomy Tiara Dewi 1717051045
+\n Patar Martua 1717051051"/>
+
+
+</RelativeLayout>

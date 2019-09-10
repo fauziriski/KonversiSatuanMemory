@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".About">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:text="Aplikasi konverter \n satuan memory ini adalah \n
+aplikasi yang akan mempermudah kalian \n dalam mengkonvert satuan memory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:paddingBottom="10dp"
+        android:id="@+id/textView" />
+
+    <Button
+        android:text="Show Me"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_show" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
