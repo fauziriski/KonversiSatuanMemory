@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Converter Byte To"
+        android:text="Converter Kilo Byte To"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:textStyle="normal|bold"
